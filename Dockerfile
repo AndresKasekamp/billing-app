@@ -20,4 +20,3 @@ EXPOSE 8080
 
 # Start the Node.js server using PM2
 CMD [ "pm2-runtime", "server.js", "--name", "billing_app" ]
-
